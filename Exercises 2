@@ -1,0 +1,22 @@
+#Exercises 2
+#Code : a = [ 66.25, 333, 333, 1, 1234.5 ]
+print(a)
+#the list is printed
+a.insert(2, -1)
+print(a)
+#at the second place of the list we insert '-1'
+a.append(333)
+print(a)
+#we had 333 at the last position
+a.index(333)
+print(a)
+#nothing happened because if we want to print the index we should write “print(a.index(333))”
+a.remove(333)
+print(a)
+#the first'333' is deleted
+a.reverse() 
+print(a)
+#the list is reverse
+a.sort()
+print(a)
+#the list is sorted from the smallest to the biggest 
