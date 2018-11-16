@@ -1,0 +1,16 @@
+#Exercice 5
+#Code : 
+shopping_list = []
+print("What should you add on your list ?")
+print("Press enter to stop the list")
+while True:
+    #asks for new items
+    new_item = input("Give an item: ")
+    #be able to quit the app
+    if new_item == "":
+        break
+    #add items to shopping list
+    shopping_list.append(new_item)
+print("Here's your list:")
+for item in shopping_list:
+    print(item
