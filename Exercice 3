@@ -9,3 +9,12 @@ while count <= 9:
     count += 1
     squares = count**2
     print(squares)
+
+#At first I had this one but it was not in a list so the next day I decide to change it into:
+#Code :
+squares = []
+x = 0
+while x <= 10:
+    squares.append(x**2)
+    x = x + 1
+print(squares)
