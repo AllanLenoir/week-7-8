@@ -1,0 +1,11 @@
+#Exercice 3
+#Code : 
+
+squares = []
+x = 0
+count = 1
+squares = 1
+while count <= 9:
+    count += 1
+    squares = count**2
+    print(squares)
